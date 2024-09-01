@@ -1,0 +1,23 @@
+#name { 
+    color: maroon; 
+    font-family: monospace;
+}
+
+.nameclass {
+    color:darkblue;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+
+.button {
+    color:black;
+    background-color:lavender;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.button:hover {
+    color:white;
+    background-color: blueviolet;
+}

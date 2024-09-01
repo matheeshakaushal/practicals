@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="form-container">
+        <header class="header">
+            <h1 id="title"> Developers Survey Form</h>
+            <p id="description">Thank You for Taking Time to Fill This Form</p>
+        </header>
+        <form id="survey-form" autocomplete="off">
+            <div class="group">
+                <label for="name" id="name-label">Name : </label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Type Your Name Here"
+                    required
+                    />
+            </div>
+            <div class="group">
+            <label for="email" id="email-label">Email : </label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Type Your Email Here"
+                required
+                />
+            </div>
+            <div class="group">
+                <label for="number" id="number-label"> Age : </label>
+                <input
+                    type="number"
+                    id="number"
+                    min="10"
+                    max="99"
+                    placeholder="Age"
+                    />
+    </div>
+    <div class="group">
+        <p class="labeltext"> Nationality :</p>
+        <select name="Country" id="dropdown">
+            <option value="India">Indian</option>
+            <option value="USA">American</option>
+            <option value="Iran">Iranian</option>
+            <option value="Russia">Russian</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <div class="group">
+        <p class="labeltext labeltextresponse">Developer :</p>
+        <label><input type="radio" name="Role" value="Frontend" />Frontend</label>
+        <label><input type="radio" name="Role" value="Backend" />Backend</label>
+        <label><input type="radio" name="Role" value="Fullstack" />Fullstack</label>
+    </div>
+    <div class="group">
+        <button id="submit">Submit</button>
+    </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
